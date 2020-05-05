@@ -1,0 +1,7 @@
+.place__link {
+  display: none;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}

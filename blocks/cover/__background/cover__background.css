@@ -1,0 +1,9 @@
+.cover__background {
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  z-index: -2;
+}
