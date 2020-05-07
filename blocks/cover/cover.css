@@ -9,7 +9,7 @@
 .cover {
   width: 320px;
   height: 200px;
-  background-image: url("/images/__background.png");
+  background-image: url("../../images/__background.png");
   background-size: cover;
   margin: 0;
   position: relative;
