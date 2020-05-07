@@ -7,10 +7,8 @@
 @import url("./__list/intro__list.css");
 
 .intro {
-  width: 288px;
-  height: 839px;
-  margin: 64px 16px 0 16px;
+  max-width: 288px;
+  margin: 64px auto 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }

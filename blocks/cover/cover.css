@@ -9,7 +9,9 @@
 .cover {
   width: 320px;
   height: 200px;
-  margin: 64px 0 0 0;
+  background-image: url("/images/__background.png");
+  background-size: cover;
+  margin: 0;
   position: relative;
   display: flex;
   flex-direction: column;

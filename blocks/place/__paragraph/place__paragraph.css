@@ -1,11 +1,9 @@
 .place__paragraph {
   margin: 24px 16px 0 16px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.625rem;
-  color: #ffffff;
 }
 
 .place__paragraph:nth-of-type(1) {

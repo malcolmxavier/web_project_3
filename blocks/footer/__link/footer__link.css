@@ -1,12 +1,10 @@
 .footer__link {
   max-width: 96px;
   margin-top: 32px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  color: #ffffff;
   text-decoration: none;
 }
 

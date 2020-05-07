@@ -22,41 +22,33 @@
 
 @import url("../blocks/footer/footer.css");
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .header {
-    width: 720px;
-    height: 44px;
-    margin: 34px 24px 0 24px;
+    max-width: 720px;
+    margin: 34px auto 0 auto;
   }
 
   .header__lang-link {
     max-width: 29px;
-    margin: 46px 0 0 18px;
+    margin: 12px 0 0 18px;
     font-size: 1.5rem;
     line-height: 1.75rem;
   }
 
   .logo {
-    width: 190px;
-    height: 44px;
-    margin: 0 456px 0 0;
-  }
-
-  .lead {
-    width: 768px;
-    height: 862px;
+    max-width: 190px;
   }
 
   .lead__title {
     max-width: 720px;
-    margin: 0 24px 0 24px;
+    margin: 0 auto;
     font-size: 6rem;
     line-height: 6.25rem;
   }
 
   .lead__subtitle {
     max-width: 620px;
-    margin: 32px 74px 0 74px;
+    margin: 32px auto 0 auto;
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
@@ -72,9 +64,8 @@
   }
 
   .intro {
-    width: 720px;
-    height: 542px;
-    margin: 88px 24px 0 24px;
+    max-width: 720px;
+    margin: 88px auto 0 auto;
   }
 
   .intro__title {
@@ -97,9 +88,8 @@
   }
 
   .photo-grid {
-    width: 720px;
-    height: 1664px;
-    margin: 88px 24px 0 24px;
+    max-width: 720px;
+    margin: 88px auto 0 auto;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: repeat(6, 1fr);
@@ -112,21 +102,20 @@
   }
 
   .places {
-    width: 720px;
-    height: 3143px;
-    margin: 88px 24px 0 24px;
+    max-width: 720px;
+    margin: 88px auto 0 auto;
   }
 
   .place {
+    max-width: 720px;
     margin: 72px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .place__title {
     max-width: 340px;
-    margin: 0 28px 0 0;
+    margin: 0;
     font-size: 2.625rem;
     line-height: 2.875rem;
   }
@@ -134,21 +123,24 @@
   .place__image {
     width: 340px;
     height: 340px;
-    margin: 48px 28px 72px 0;
+    margin-top: 48px;
   }
 
-  .place__website {
-    max-width: 352px;
-    margin: 0;
+  .place__text {
     display: flex;
     flex-direction: column;
   }
 
+  .place__website {
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .place__url-heading {
     display: block;
-    max-width: 352px;
     margin: 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 0.75rem;
@@ -159,58 +151,47 @@
 
   .place__link {
     display: block;
-    max-width: 352px;
-    font-family: 'Inter';
+    margin: 12px 0 0 0;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.375rem;
     text-decoration: underline;
-    color: #ffffff;
+  }
+
+  .place__link:hover {
+    opacity: 0.8;
   }
 
   .place__paragraph {
-    margin: 24px 0 0 0;
+    margin: 24px 16px 0 16px;
   }
 
   .place__paragraph:nth-of-type(1) {
-    margin: 48px 0 0 0;
+    margin: 48 16px 0 16px;
   }
 
   .cover {
     width: 768px;
     height: 480px;
-    margin: 88px 0 0 0;
-    position: relative;
   }
 
   .cover__title {
     max-width: 656px;
-    margin: 153px 56px 0 56px;
+    margin: 153px auto 0 auto;
     font-size: 4.5rem;
     line-height: 4.75rem;
   }
 
   .cover__subtitle {
     max-width: 320px;
-    margin: 32px 224px 153px 224px;
+    margin: 32px auto 0 auto;
     font-size: 1.125rem;
     line-height: 1.375rem;
   }
 
-  .cover__overlay {
-    width: 768px;
-    height: 480px;
-  }
-
-  .cover__background {
-    width: 768px;
-    height: 480px;
-  }
-
   .footer {
-    width: 720px;
-    height: 18px;
+    max-width: 720px;
     margin: 88px 24px 24px 24px;
     flex-direction: row;
   }
@@ -221,54 +202,23 @@
     line-height: 1.125rem;
   }
 
-  .footer__link:nth-of-type(1) {
-    max-width: 42px;
-  }
-
-  .footer__link:nth-of-type(2) {
-    max-width: 64px;
-  }
-
-  .footer__link:nth-of-type(3) {
-    max-width: 69px;
-  }
-
   .footer__copyright {
-    margin: 2px 0 0 341px;
+    margin: 0;
     font-size: 0.875rem;
     line-height: 1rem;
-    text-align: right;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .header {
-    width: 928px;
-    margin: 34px 48px 0 48px;
-  }
-
-  .logo {
-    margin: 0 664px 0 0;
-  }
-
-  .lead {
-    width: 928px;
-    height: 962px;
-    margin: 50px 48px 0 48px;
-  }
-
-  .lead__title {
-    margin: 0 152px 0 152px;
-  }
-
-  .lead__subtitle {
-    margin: 32px 202px 0 202px;
+    max-width: 928px;
+    margin: 34px auto 0 auto;
   }
 
   .lead__image {
     width: 928px;
     height: 580px;
-    margin: 56px 48px 0 48px;
+    margin: 56px auto 0 auto;
   }
 
   .lead__caption {
@@ -276,8 +226,7 @@
   }
 
   .intro {
-    width: 690px;
-    height: 568px;
+    max-width: 690px;
     margin: 92px 286px 0 48px;
   }
 
@@ -298,9 +247,8 @@
   }
 
   .photo-grid {
-    width: 928px;
-    height: 942px;
-    margin: 92px 48px 0 48px;
+    max-width: 928px;
+    margin: 92px auto 0 auto;
     grid-row-gap: 14px;
     grid-column-gap: 14px;
     grid-template-rows: repeat(4, 1fr);
@@ -313,13 +261,15 @@
   }
 
   .places {
-    width: 928px;
-    height: 3456px;
-    margin: 92px 48px 0 48px;
+    max-width: 928px;
+    margin: 92px auto 0 auto;
   }
 
   .place {
+    max-width: 928px;
     margin: 80px 0 0 0;
+    display: flex;
+    flex-direction: row;
   }
 
   .place__title {
@@ -335,19 +285,6 @@
     margin: 48px 32px 0 0;
   }
 
-  .place__website {
-    max-width: 456px;
-    margin: 20px 0 0 0;
-  }
-
-  .place__url-heading {
-    max-width: 456px;
-  }
-
-  .place__link {
-    max-width: 456px;
-  }
-
   .cover {
     width: 1023px;
     height: 640px;
@@ -355,61 +292,29 @@
   }
 
   .cover__title {
-    margin: 233px 184px 0 184px;
+    margin: 233px auto 0 auto;
   }
 
   .cover__subtitle {
-    margin: 32px 352px 233px 352px;
-  }
-
-  .cover__overlay {
-    width: 1024px;
-    height: 640px;
-  }
-
-  .cover__background {
-    width: 1024px;
-    height: 640px;
+    margin: 32px auto 0 auto;
   }
 
   .footer {
-    width: 928px;
-    margin: 92px 48px 24px 48px;
-  }
-
-  .footer__copyright {
-    margin: 2px 0 0 549px;
+    max-width: 928px;
+    margin: 92px auto 24px auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .header {
-    width: 984px;
-    margin: 34px 148px 0 148px;
-  }
-
-  .logo {
-    margin: 0 720px 0 0;
-  }
-
-  .lead {
-    width: 984px;
-    height: 1005px;
-    margin: 58px 148px 0 148px;
-  }
-
-  .lead__title {
-    margin: 0 132px 0 132px;
-  }
-
-  .lead__subtitle {
-    margin: 32px 182px 0 182px;
+    max-width: 984px;
+    margin: 34px auto 0 auto;
   }
 
   .lead__image {
     width: 984px;
     height: 615px;
-    margin: 64px 148px 0 148px;
+    margin: 64px auto 0 auto;
   }
 
   .lead__caption {
@@ -421,8 +326,7 @@
   }
 
   .photo-grid {
-    width: 1184px;
-    height: 671px;
+    max-width: 1184px;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: repeat(3, 1fr);
@@ -435,9 +339,7 @@
   }
 
   .places {
-    width: 984px;
-    height: 3452px;
-    margin: 92px 148px 0 148px;
+    max-width: 984px;
   }
 
   .place__title {
@@ -451,31 +353,18 @@
     margin: 48px 40px 0 0;
   }
 
-  .place__website {
-    max-width: 456px;
-    margin: 20px 28px 0 0;
-  }
-
-  .place__url-heading {
-   max-width: 456px;
-  }
-
-  .place__link {
-    max-width: 456px;
-  }
-
   .cover {
     width: 1184px;
     height: 740px;
-    margin: 92px 48px 0 48px;
+    margin: 92px auto 0 auto;
   }
 
   .cover__title {
-    margin: 283px 264px 0 264px;
+    margin: 283px auto 0 auto;
   }
 
   .cover__subtitle {
-    margin: 32px 432px 283px 432px;
+    margin: 32px auto 283px auto;
   }
 
   .cover__overlay {
@@ -483,16 +372,7 @@
     height: 740px;
   }
 
-  .cover__background {
-    width: 1184px;
-    height: 740px;
-  }
-
   .footer {
-    width: 1184px;
-  }
-
-  .footer__copyright {
-    margin: 2px 0 0 805px;
+    max-width: 1184px;
   }
 }

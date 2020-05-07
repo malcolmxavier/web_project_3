@@ -1,9 +1,8 @@
 @import url("./__item/photo-grid__item.css");
 
 .photo-grid {
-  width: 288px;
-  height: 2724px;
-  margin: 64px 16px 0 16px;
+  max-width: 288px;
+  margin: 64px auto 0 auto;
   display: grid;
   grid-row-gap: 12px;
   grid-template-rows: repeat(12, 1fr);
