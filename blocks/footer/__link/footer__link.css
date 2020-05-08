@@ -1,5 +1,5 @@
 .footer__link {
-  max-width: 96px;
+  min-width: 96px;
   margin-top: 32px;
   font-style: normal;
   font-weight: normal;

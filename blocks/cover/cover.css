@@ -7,10 +7,7 @@
 @import url("./__background/cover__background.css");
 
 .cover {
-  width: 320px;
-  height: 200px;
-  background-image: url("../../images/__background.png");
-  background-size: cover;
+  width: 100%;
   margin: 0;
   position: relative;
   display: flex;

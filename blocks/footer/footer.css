@@ -3,9 +3,10 @@
 @import url("./__copyright/footer__copyright.css");
 
 .footer {
-  width: 100%;
+  min-width: 168px;
   margin: 64px auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: left;
 }
