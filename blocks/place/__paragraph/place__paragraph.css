@@ -1,6 +1,6 @@
 .place__paragraph {
-  width: 100%;
-  margin: 24px 16px 0 16px;
+  width: calc(100% - 32px);
+  margin: 24px auto 0 auto;
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -8,5 +8,5 @@
 }
 
 .place__paragraph:nth-of-type(1) {
-  margin: 32px 16px 0 16px;
+  margin: 32px auto 0 auto;
 }

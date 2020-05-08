@@ -30,19 +30,18 @@
   }
 
   .header {
-    min-width: 720px;
+    width: 100%;
     margin: 34px auto 0 auto;
   }
 
   .header__lang-link {
-    min-width: 29px;
     margin: 12px 0 0 18px;
     font-size: 1.5rem;
     line-height: 1.75rem;
   }
 
   .logo {
-    min-width: 190px;
+    max-width: 190px;
   }
 
   .lead {
@@ -72,31 +71,21 @@
   }
 
   .intro {
-    min-width: 720px;
+    width: 100%;
     margin: 88px auto 0 auto;
   }
 
   .intro__title {
-    min-width: 720px;
     font-size: 3.375rem;
     line-height: 3.625rem;
   }
 
   .intro__subtitle {
-    min-width: 720px;
     line-height: 2.125rem;
   }
 
-  .intro__text {
-    min-width: 720px;
-  }
-
-  .intro__list {
-    min-width: 720px;
-  }
-
   .photo-grid {
-    min-width: 720px;
+    width: 100%;
     margin: 88px auto 0 auto;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
@@ -104,43 +93,36 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .photo-grid__item {
-    min-width: 352px;
-    min-height: 264px;
-  }
-
   .places {
-    min-width: 720px;
     margin: 88px auto 0 auto;
   }
 
   .place {
-    min-width: 720px;
     margin: 72px 0 0 0;
     flex-direction: row;
     justify-content: space-between;
   }
 
+  .place__main {
+    width: calc(50% - 20px);
+  }
+
   .place__title {
-    min-width: 340px;
     margin: 0;
     font-size: 2.625rem;
     line-height: 2.875rem;
   }
 
   .place__image {
-    min-width: 340px;
-    min-height: 340px;
     margin-top: 48px;
   }
 
   .place__text {
-    display: flex;
-    flex-direction: column;
+    width: calc(50% - 8px);
   }
 
   .place__website {
-    margin: 0 16px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -172,11 +154,16 @@
   }
 
   .place__paragraph {
-    margin: 24px 16px 0 16px;
+    width: 100%;
+    margin: 24px auto 0 auto;
   }
 
   .place__paragraph:nth-of-type(1) {
-    margin: 48 16px 0 16px;
+    margin: 48px auto 0 auto;
+  }
+
+  .cover {
+    margin: 88px auto 0 auto;
   }
 
   .cover__title {
@@ -194,8 +181,7 @@
   }
 
   .footer {
-    min-width: 720px;
-    margin: 88px 24px 24px 24px;
+    margin: 88px auto 24px auto;
     flex-direction: row;
   }
 
@@ -218,7 +204,6 @@
   }
 
   .header {
-    min-width: 928px;
     margin: 34px auto 0 auto;
   }
 
@@ -236,28 +221,26 @@
   }
 
   .intro {
-    min-width: 690px;
-    margin: 92px 286px 0 48px;
+    margin: 92px auto 0 auto;
   }
 
   .intro__title {
-    min-width: 690px;
+    max-width: 690px;
   }
 
   .intro__subtitle {
-    min-width: 690px;
+    max-width: 690px;
   }
 
   .intro__text {
-    min-width: 690px;
+    max-width: 690px;
   }
 
   .intro__list {
-    min-width: 690px;
+    max-width: 690px;
   }
 
   .photo-grid {
-    min-width: 928px;
     margin: 92px auto 0 auto;
     grid-row-gap: 14px;
     grid-column-gap: 14px;
@@ -265,33 +248,27 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .photo-grid__item {
-    min-width: 300px;
-    min-height: 225px;
-  }
-
   .places {
-    min-width: 928px;
     margin: 92px auto 0 auto;
   }
 
   .place {
-    min-width: 928px;
     margin: 80px 0 0 0;
     display: flex;
     flex-direction: row;
   }
 
+  .place__main {
+    width: calc(50% - 24px);
+  }
+
   .place__title {
-    min-width: 440px;
     margin: 0 32px 0 0;
     font-size: 4.5rem;
     line-height: 4.75rem;
   }
 
   .place__image {
-    min-width: 440px;
-    min-height: 440px;
     margin: 48px 32px 0 0;
   }
 
@@ -321,7 +298,6 @@
   }
 
   .header {
-    min-width: 984px;
     margin: 34px auto 0 auto;
   }
 
@@ -334,35 +310,30 @@
   }
 
   .intro {
-    margin: 92px 442px 0 148px;
+    margin: 92px auto 0 auto;
   }
 
   .photo-grid {
-    min-width: 1184px;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .photo-grid__item {
-    min-width: 284px;
-    min-height: 213px;
-  }
-
-  .places {
-    min-width: 984px;
+  .place__main {
+    width: calc(50% - 34px);
   }
 
   .place__title {
-    min-width: 460px;
     margin: 0 40px 0 0;
   }
 
   .place__image {
-    min-width: 460px;
-    min-height: 460px;
     margin: 48px 40px 0 0;
+  }
+
+  .place__text {
+    width: calc(50% - 10px);
   }
 
   .cover {
