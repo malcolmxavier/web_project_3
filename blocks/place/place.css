@@ -1,11 +1,20 @@
+@import url("./__main/place__main.css");
+
 @import url("./__title/place__title.css");
 
 @import url("./__image/place__image.css");
 
+@import url("./__text/place__text.css");
+
+@import url("./__website/place__website.css");
+
+@import url("./__url-heading/place__url-heading.css");
+
+@import url("./__link/place__link.css");
+
 @import url("./__paragraph/place__paragraph.css");
 
 .place {
-  width: 100%;
   margin: 48px 0 0 0;
   display: flex;
   flex-direction: column;
@@ -13,4 +22,20 @@
 
 .place:nth-of-type(1) {
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  .place {
+    margin: 72px 0 0 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .place {
+    margin: 80px 0 0 0;
+  }
 }

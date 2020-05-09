@@ -7,8 +7,30 @@
 @import url("./__list/intro__list.css");
 
 .intro {
-  width: calc(100% - 32px);
+  padding: 0 16px;
+  box-sizing: border-box;
   margin: 64px auto 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+
+  .intro {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .intro {
+    padding: 0 286px 0 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .intro {
+    padding: 0 442px 0 148px;
+  }
 }

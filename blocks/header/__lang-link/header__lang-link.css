@@ -1,5 +1,4 @@
 .header__lang-link {
-  width: 100%;
   margin: 10px 0 0 18px;
   font-style: normal;
   font-weight: normal;
@@ -9,4 +8,13 @@
 
 .header__lang-link:nth-of-type(1) {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+  .header__lang-link {
+    margin: 12px 0 0 18px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
 }

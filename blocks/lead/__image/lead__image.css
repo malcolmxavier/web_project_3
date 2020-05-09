@@ -2,3 +2,24 @@
   width: 100%;
   margin: 40px 0 0 0;
 }
+
+@media screen and (min-width: 768px) {
+
+  .lead__image {
+    margin: 56px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .lead__image {
+    margin: 56px auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .lead__image {
+    margin: 64px auto 0 auto;
+  }
+}

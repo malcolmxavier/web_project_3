@@ -1,3 +1,17 @@
 .place__url-heading {
   display: none;
 }
+
+@media screen and (min-width: 768px) {
+
+  .place__url-heading {
+    display: block;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.2em;
+    color: #aaaaaa;
+  }
+}

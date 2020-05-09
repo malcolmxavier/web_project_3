@@ -7,3 +7,13 @@
   line-height: 1.25rem;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+
+  .lead__subtitle {
+    max-width: 620px;
+    margin: 32px auto 0 auto;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}

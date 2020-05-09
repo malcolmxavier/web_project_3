@@ -1,17 +1,41 @@
+@import url("./__link/cover__link.css");
+
 @import url("./__title/cover__title.css");
 
 @import url("./__subtitle/cover__subtitle.css");
 
 @import url("./__overlay/cover__overlay.css");
 
-@import url("./__background/cover__background.css");
-
 .cover {
   width: 100%;
   margin: 0;
-  position: relative;
+  background-image: url("../../images/__background.png");
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: relative;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .cover {
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .cover {
+    margin: 92px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .cover {
+    padding: 0 48px;
+    box-sizing: border-box;
+  }
 }

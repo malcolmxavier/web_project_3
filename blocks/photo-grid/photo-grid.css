@@ -1,9 +1,26 @@
+@import url("./__list/photo-grid__list.css");
+
 @import url("./__item/photo-grid__item.css");
 
 .photo-grid {
-  width: calc(100% - 32px);
-  margin: 64px auto 0 auto;
-  display: grid;
-  grid-row-gap: 12px;
-  grid-template-rows: repeat(12, 1fr);
+  width: 100%;
+  margin: 64px 0 0 0;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+
+  .photo-grid {
+    margin: 88px 0 0 0;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .photo-grid {
+    margin: 92px 0 0 0;
+    padding: 0 48px;
+  }
 }
