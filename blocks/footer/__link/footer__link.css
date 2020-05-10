@@ -7,12 +7,12 @@
   text-decoration: none;
 }
 
-.footer__link:nth-of-type(1) {
+.footer__link:first-child {
   margin-top: 0;
 }
 
 .footer__link:hover {
-  opacity: 0.8;;
+  opacity: .8;
 }
 
 @media screen and (min-width: 768px) {

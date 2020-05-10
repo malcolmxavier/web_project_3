@@ -1,3 +1,5 @@
+@import url("./_active/header__lang-link_active.css");
+
 .header__lang-link {
   margin: 10px 0 0 18px;
   font-style: normal;
@@ -6,8 +8,8 @@
   line-height: 1.5rem;
 }
 
-.header__lang-link:nth-of-type(1) {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 @media screen and (min-width: 768px) {

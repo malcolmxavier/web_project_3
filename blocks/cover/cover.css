@@ -7,7 +7,6 @@
 @import url("./__overlay/cover__overlay.css");
 
 .cover {
-  width: 100%;
   margin: 0;
   background-image: url("../../images/__background.png");
   background-position: center;
@@ -34,7 +33,6 @@
 @media screen and (min-width: 1280px) {
 
   .cover {
-    padding: 0 48px;
-    box-sizing: border-box;
+    margin: 92px 48px 0 48px;
   }
 }
