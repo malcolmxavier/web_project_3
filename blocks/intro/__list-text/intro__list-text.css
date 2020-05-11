@@ -1,0 +1,9 @@
+@import url("./_name/intro__list-text_name.css");
+
+@import url("./_number/intro__list-text_number.css");
+
+.intro__list-text {
+  font-style: normal;
+  font-size: .75rem;
+  line-height: 1.125rem;
+}

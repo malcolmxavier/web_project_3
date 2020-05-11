@@ -9,9 +9,9 @@
     margin: 0;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.75rem;
-    line-height: 0.75rem;
-    letter-spacing: 0.2em;
+    font-size: .75rem;
+    line-height: .75rem;
+    letter-spacing: .2em;
     color: #aaaaaa;
   }
 }

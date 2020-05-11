@@ -1,5 +1,6 @@
+@import url("./_long-state-name/place__text_long-state-name.css");
+
 .place__text {
-  margin: 0;
   padding: 0 16px;
   box-sizing: border-box;
   display: flex;

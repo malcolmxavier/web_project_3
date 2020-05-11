@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+  .place__text_long-state-name {
+    margin: 76px 0 0 0;
+    justify-content: flex-end;
+  }
+}
