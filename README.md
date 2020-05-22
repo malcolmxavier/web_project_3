@@ -1,4 +1,4 @@
-Project name: Malcolm X's 2nd Yandex Project v1.0
+Project name: Malcolm X's 2nd Yandex Project v4.0
 
 This is a sample project to demonstrate grasp of HTML and CSS skills.
 
